@@ -4,7 +4,7 @@
 
 class Object {
 public:
-    Object(const sf::Vector2f &position, sf::Color color, float size);
+    Object(const sf::Vector2f &position,const sf::Color &color, float size);
     Object(const Object& other);
     Object(const sf::Vector2f &position, const Object& other);
     ~Object() = default;

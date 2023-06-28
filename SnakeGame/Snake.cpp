@@ -1,6 +1,6 @@
 #include "Snake.h"
 
-Snake::Snake(const sf::Vector2f &position, sf::Color color, float size)
+Snake::Snake(const sf::Vector2f &position,const sf::Color &color, float size)
     : direction(Direction::RIGHT) {
     SnakeBlock headBlock(position, color, size);
     blocks.push_back(headBlock);
@@ -10,7 +10,6 @@ void Snake::move(float distance) {
     sf::Vector2f currentPosition = blocks.front().getPosition();
     sf::Vector2f newPosition = calculateNewPosition(currentPosition, distance);
 
-    //SnakeBlock newBlock(newPosition, blocks.front().getColor(), blocks.front().getSize());
     SnakeBlock newBlock(newPosition, blocks.front());
     blocks.insert(blocks.begin(), newBlock);
 
@@ -18,10 +17,8 @@ void Snake::move(float distance) {
 }
 
 void Snake::changeDirection(Direction newDirection) {
-    //if (isOppositeDirection(newDirection, direction)) {
-    //    return;
-    //}
-    this->direction = newDirection;
+    if (!isOppositeDirection(newDirection, direction))
+        this->direction = newDirection;
 }
 
 void Snake::draw(sf::RenderWindow& window) {
@@ -35,11 +32,10 @@ sf::FloatRect Snake::getBounds() {
 }
 
 void Snake::addBlock() {
-   sf::Vector2f currentPosition = blocks.front().getPosition();
-   float distance = blocks.front().getSize();
-   sf::Vector2f newPosition = calculateNewPosition(currentPosition, distance);
+    sf::Vector2f currentPosition = blocks.front().getPosition();
+    float distance = blocks.front().getSize();
+    sf::Vector2f newPosition = calculateNewPosition(currentPosition, distance);
 
-    //SnakeBlock newBlock(newPosition, blocks.front().getColor(), blocks.front().getSize());
     SnakeBlock newBlock(newPosition, blocks.back());
     blocks.emplace_back(newBlock);
 }

@@ -6,7 +6,7 @@
 
 class Snake {
 public:
-    Snake(const sf::Vector2f &position, sf::Color color, float size);
+    Snake(const sf::Vector2f &position,const sf::Color &color, float size);
     Snake() = default;
 
     void move(float distance);

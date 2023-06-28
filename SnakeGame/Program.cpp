@@ -1,6 +1,6 @@
 #include "Program.h"
 
-Program::Program(const std::string& windowName, const sf::Vector2f& windowSize) { //TODO: more magic number
+Program::Program(const std::string& windowName, const sf::Vector2f& windowSize) { //TODO: magic numbers
 	window.create(sf::VideoMode(windowSize.x, windowSize.y), windowName);
 
 	snake = std::make_unique<Snake>(sf::Vector2f(windowSize.x/2, windowSize.y/2), sf::Color::Blue, 20);

@@ -26,7 +26,7 @@ void SnakeControl::handleInput() {
 }
 
 void SnakeControl::update(float deltaTime) {
-    snake->move(150.f);
+    snake->move(75.0f* deltaTime);
 
     checkApple();
 }

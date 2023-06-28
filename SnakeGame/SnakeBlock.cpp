@@ -1,6 +1,6 @@
 #include "SnakeBlock.h"
 
-SnakeBlock::SnakeBlock(const sf::Vector2f &position, sf::Color color, float size)
+SnakeBlock::SnakeBlock(const sf::Vector2f &position,const sf::Color &color, float size)
     : Object(position, color, size) {
 }
 

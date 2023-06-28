@@ -1,6 +1,6 @@
 #include "Object.h"
 
-Object::Object(const sf::Vector2f &position, sf::Color color, float size)
+Object::Object(const sf::Vector2f &position, const sf::Color &color, float size)
     : position(position), color(color), size(size) {
     shapeSettings();
 }
