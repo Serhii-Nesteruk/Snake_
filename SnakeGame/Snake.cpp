@@ -3,7 +3,7 @@
 Snake::Snake(const sf::Vector2f &position,const sf::Color &color, float size)
     : direction(Direction::RIGHT) {
     SnakeBlock headBlock(position, color, size);
-    blocks.push_back(headBlock);
+    blocks.emplace_back(headBlock);
 }
 
 void Snake::move(float distance) {
@@ -31,6 +31,11 @@ sf::FloatRect Snake::getBounds() {
     return blocks.front().getBounds();
 }
 
+void Snake::enlargeSnake() {
+    for (int i = 0; i < 70; ++i)
+        addBlock();
+}
+
 void Snake::addBlock() {
     sf::Vector2f currentPosition = blocks.front().getPosition();
     float distance = blocks.front().getSize();
@@ -38,6 +43,11 @@ void Snake::addBlock() {
 
     SnakeBlock newBlock(newPosition, blocks.back());
     blocks.emplace_back(newBlock);
+}
+
+void Snake::setPosition(const sf::Vector2f& position) {
+    for (auto& block : blocks)
+        block.setPosition(position);
 }
 
 sf::Vector2f Snake::calculateNewPosition(sf::Vector2f position, float distance) {

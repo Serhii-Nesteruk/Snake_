@@ -1,13 +1,10 @@
 #include "Program.h"
 
-Program::Program(const std::string& windowName, const sf::Vector2f& windowSize) { //TODO: magic numbers
+Program::Program(const std::string& windowName, const sf::Vector2f& windowSize) //TODO: magic numbers
+	: snake(sf::Vector2f(windowSize.x / 2, windowSize.y / 2), sf::Color::Blue, 20),
+	apple(sf::Vector2f(rand() % 600, rand() % 600), sf::Color::Red, 20),
+	snakeControl(window, snake, apple) { 
 	window.create(sf::VideoMode(windowSize.x, windowSize.y), windowName);
-
-	snake = std::make_unique<Snake>(sf::Vector2f(windowSize.x/2, windowSize.y/2), sf::Color::Blue, 20);
-	apple = std::make_unique<Apple>(sf::Vector2f(rand() % 1200, rand() % 550),
-		sf::Color::Red, 20);
-
-	snakeControl = std::make_unique<SnakeControl>(window, *snake.get(), *apple.get());
 }
 
 void Program::start() {
@@ -29,9 +26,10 @@ void Program::display() {
 
 	deltaTime = clock.restart().asSeconds();
 
-	snakeControl->handleInput();
-	snakeControl->update(deltaTime);
-	snakeControl->draw();
+	snakeControl.handleInput();
+	snakeControl.update(deltaTime);
+	snakeControl.checkWall();
+	snakeControl.draw();
 
 	window.display();
 }

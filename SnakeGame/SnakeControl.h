@@ -9,19 +9,21 @@
 class SnakeControl {
 public:
     SnakeControl(sf::RenderWindow& window, Snake& snake, Apple& apple);
-    ~SnakeControl();
+    ~SnakeControl() = default;
     void handleInput();
 
     void update(float deltaTime);
-
+    void checkWall();
     void draw();
 private:
     void checkApple();
 private:
-    sf::RenderWindow* window = nullptr;//TODO: make the unique_ptr
-    Snake* snake = nullptr;//TODO: make the unique_ptr
-    Apple* apple = nullptr;//TODO: make the unique_ptr
-    //std::unique_ptr<sf::RenderWindow> window;
-    //std::unique_ptr<Snake> snake;
-    //std::unique_ptr<Apple> apple;
+    sf::RenderWindow& window;
+    Snake& snake;
+    Apple& apple;
+    float snakeSpeed = 75.f;
+    float leftSideCoordinate = 0.f;
+    float rightSideCoordinate = 600.f;
+    float upSideCoordinate = 0.f;
+    float downSideCoordinate = 600.f;
 };

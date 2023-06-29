@@ -70,6 +70,10 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\Users\shdh3\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0\include</IncludePath>
+    <PublicIncludeDirectories>C:\Users\shdh3\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0\include</PublicIncludeDirectories>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -104,7 +108,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\shdh3\Downloads\SFML-2.6.0-windows-vc17-64-bit\SFML-2.6.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -132,7 +137,6 @@
   <ItemGroup>
     <ClCompile Include="Apple.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Object.cpp" />
     <ClCompile Include="Program.cpp" />
     <ClCompile Include="Snake.cpp" />
     <ClCompile Include="SnakeBlock.cpp" />
@@ -141,7 +145,7 @@
   <ItemGroup>
     <ClInclude Include="Apple.h" />
     <ClInclude Include="Direction.h" />
-    <ClInclude Include="Object.h" />
+    <ClInclude Include="ObjectWorld.h" />
     <ClInclude Include="Program.h" />
     <ClInclude Include="Snake.h" />
     <ClInclude Include="SnakeBlock.h" />

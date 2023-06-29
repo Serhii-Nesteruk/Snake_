@@ -1,5 +1,5 @@
 #include "Apple.h"
 
-Apple::Apple(sf::Vector2f position, sf::Color color, float size)
-    : Object(position, color, size) {
+Apple::Apple(const sf::Vector2f &position,const sf::Color &color, float size)
+    : ObjectWorld(position, color, size) {
 }

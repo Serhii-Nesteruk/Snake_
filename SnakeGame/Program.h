@@ -25,9 +25,9 @@ private:
 	void display();
 private:
 	sf::RenderWindow window;
-	std::unique_ptr<Snake> snake;
-	std::unique_ptr<Apple> apple;
-	std::unique_ptr<SnakeControl> snakeControl;
+	Snake snake;
+	Apple apple;
+	SnakeControl snakeControl;
 	sf::Clock clock;
 	float deltaTime = 0.f;
 };

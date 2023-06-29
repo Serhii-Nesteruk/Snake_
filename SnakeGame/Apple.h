@@ -1,8 +1,8 @@
 #pragma once
 
-#include "Object.h"
+#include "ObjectWorld.h"
 
-class Apple : public Object {
+class Apple : public ObjectWorld<Apple> {
 public:
-    Apple(sf::Vector2f position, sf::Color color, float size);
+    Apple(const sf::Vector2f &position,const sf::Color &color, float size);
 };

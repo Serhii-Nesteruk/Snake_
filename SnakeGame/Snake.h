@@ -13,7 +13,10 @@ public:
     void changeDirection(Direction newDirection);
     void draw(sf::RenderWindow& window);
     sf::FloatRect getBounds();
+
+    void enlargeSnake();
     void addBlock();
+    void setPosition(const sf::Vector2f &position);
 private:
     sf::Vector2f calculateNewPosition(sf::Vector2f position, float distance);
     bool isOppositeDirection(Direction newDirection, Direction currentDirection);
