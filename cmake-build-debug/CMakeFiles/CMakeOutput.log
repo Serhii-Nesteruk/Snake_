@@ -1,0 +1,207 @@
+The system is: Windows - 10.0.22621 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files/LLVM/bin/clang-cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+The C compiler identification is Clang, found in "D:/MySnake/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files/LLVM/bin/clang-cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+The CXX compiler identification is Clang, found in "D:/MySnake/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/MySnake/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7ircmx
+
+Run Build Command(s):D:/CLion 2023.1.4/bin/ninja/win/x64/ninja.exe cmTC_3a028 && [1/2] Building C object CMakeFiles\cmTC_3a028.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_3a028.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/MySnake/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ac8xwh
+
+Run Build Command(s):D:/CLion 2023.1.4/bin/ninja/win/x64/ninja.exe cmTC_f6489 && [1/2] Building CXX object CMakeFiles\cmTC_f6489.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_f6489.exe
+
+
+
+
+
+Detecting CXX [-std:c++14] compiler features compiled with the following output:
+Change Dir: D:/MySnake/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3vyp7c
+
+Run Build Command(s):D:/CLion 2023.1.4/bin/ninja/win/x64/ninja.exe cmTC_8c7c3 && [1/2] Building CXX object CMakeFiles\cmTC_8c7c3.dir\feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_8c7c3.exe
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: D:/MySnake/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k2r0et
+
+Run Build Command(s):D:/CLion 2023.1.4/bin/ninja/win/x64/ninja.exe cmTC_4cbfa && [1/2] Building CXX object CMakeFiles\cmTC_4cbfa.dir\feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_4cbfa.exe
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: D:/MySnake/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ap39o3
+
+Run Build Command(s):D:/CLion 2023.1.4/bin/ninja/win/x64/ninja.exe cmTC_3c01f && [1/2] Building C object CMakeFiles\cmTC_3c01f.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_3c01f.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: D:/MySnake/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rvc17z
+
+Run Build Command(s):D:/CLion 2023.1.4/bin/ninja/win/x64/ninja.exe cmTC_95021 && [1/2] Building C object CMakeFiles\cmTC_95021.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_95021.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: D:/MySnake/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4viedt
+
+Run Build Command(s):D:/CLion 2023.1.4/bin/ninja/win/x64/ninja.exe cmTC_8360c && [1/2] Building C object CMakeFiles\cmTC_8360c.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_8360c.exe
+
+
+
+Determining size of void* passed with the following output:
+Change Dir: D:/MySnake/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dzdqvo
+
+Run Build Command(s):D:/CLion 2023.1.4/bin/ninja/win/x64/ninja.exe cmTC_d0e3c && [1/2] Building C object CMakeFiles\cmTC_d0e3c.dir\SIZEOF_VOID_PTR.c.obj
+[2/2] Linking C executable cmTC_d0e3c.exe
+
+
+

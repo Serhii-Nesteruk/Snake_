@@ -1,0 +1,268 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "dependencies/SFML-2.6.x",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-dependencies.SFML-2.6.x-Release-80fc175195210d0338c2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "dependencies/SFML-2.6.x"
+				},
+				{
+					"build" : "dependencies/SFML-2.6.x/src/SFML",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-dependencies.SFML-2.6.x.src.SFML-Release-3d9f90fefbf03e36eebe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "dependencies/SFML-2.6.x/src/SFML"
+				},
+				{
+					"build" : "dependencies/SFML-2.6.x/src/SFML/System",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-dependencies.SFML-2.6.x.src.SFML.System-Release-bf68cee54de040f32919.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "dependencies/SFML-2.6.x/src/SFML/System",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "dependencies/SFML-2.6.x/src/SFML/Main",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-dependencies.SFML-2.6.x.src.SFML.Main-Release-4a8044ac6aed60149471.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "dependencies/SFML-2.6.x/src/SFML/Main",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "dependencies/SFML-2.6.x/src/SFML/Window",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-dependencies.SFML-2.6.x.src.SFML.Window-Release-e39165161d2234e01695.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "dependencies/SFML-2.6.x/src/SFML/Window",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "dependencies/SFML-2.6.x/src/SFML/Network",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-dependencies.SFML-2.6.x.src.SFML.Network-Release-872384746b81640e7334.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "dependencies/SFML-2.6.x/src/SFML/Network",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "dependencies/SFML-2.6.x/src/SFML/Graphics",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-dependencies.SFML-2.6.x.src.SFML.Graphics-Release-e6f778f5e1388029c422.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "dependencies/SFML-2.6.x/src/SFML/Graphics",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "dependencies/SFML-2.6.x/src/SFML/Audio",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-dependencies.SFML-2.6.x.src.SFML.Audio-Release-b87fcc03bbd2e3d32bc7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "dependencies/SFML-2.6.x/src/SFML/Audio",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MySnake-project",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "SFML",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MySnake::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MySnake-Release-022ed6480fbb70cac66f.json",
+					"name" : "MySnake",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "sfml-audio::@c474cff6449752911608",
+					"jsonFile" : "target-sfml-audio-Release-7f40be47e0b4a2d70bc6.json",
+					"name" : "sfml-audio",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "sfml-graphics::@38db763505e59567e487",
+					"jsonFile" : "target-sfml-graphics-Release-255b412f141169f773c4.json",
+					"name" : "sfml-graphics",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "sfml-main::@155d70608b8f4457c3d9",
+					"jsonFile" : "target-sfml-main-Release-b75a46360edfdc3430f8.json",
+					"name" : "sfml-main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "sfml-network::@3157efe3fe2bac757ed6",
+					"jsonFile" : "target-sfml-network-Release-4f8e972a19bc4fd68280.json",
+					"name" : "sfml-network",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sfml-system::@fffdf16c78363ac95b3b",
+					"jsonFile" : "target-sfml-system-Release-747e2cc3899992037b26.json",
+					"name" : "sfml-system",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "sfml-window::@a71de3739b8a63f4e099",
+					"jsonFile" : "target-sfml-window-Release-2bafee2a1522432c821b.json",
+					"name" : "sfml-window",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/MySnake/cmake-build-release",
+		"source" : "D:/MySnake"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

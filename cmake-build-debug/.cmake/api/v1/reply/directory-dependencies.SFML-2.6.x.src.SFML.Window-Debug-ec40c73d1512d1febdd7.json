@@ -1,0 +1,66 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sfml_add_library"
+		],
+		"files" : 
+		[
+			"dependencies/SFML-2.6.x/cmake/Macros.cmake",
+			"dependencies/SFML-2.6.x/src/SFML/Window/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 284,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 202,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "devel",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"dependencies/SFML-2.6.x/lib/sfml-window-d.lib"
+			],
+			"targetId" : "sfml-window::@a71de3739b8a63f4e099",
+			"targetIndex" : 6,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "bin",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"dependencies/SFML-2.6.x/lib/sfml-window-d-2.dll"
+			],
+			"targetId" : "sfml-window::@a71de3739b8a63f4e099",
+			"targetIndex" : 6,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "dependencies/SFML-2.6.x/src/SFML/Window",
+		"source" : "dependencies/SFML-2.6.x/src/SFML/Window"
+	}
+}

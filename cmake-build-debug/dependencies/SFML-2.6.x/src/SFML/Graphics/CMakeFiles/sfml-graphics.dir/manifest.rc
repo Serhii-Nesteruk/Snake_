@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+2 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/MySnake/cmake-build-debug/dependencies/SFML-2.6.x/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/embed.manifest"

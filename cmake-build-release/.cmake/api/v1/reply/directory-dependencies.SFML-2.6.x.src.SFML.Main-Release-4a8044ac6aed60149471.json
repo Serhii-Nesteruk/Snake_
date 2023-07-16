@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sfml_add_library"
+		],
+		"files" : 
+		[
+			"dependencies/SFML-2.6.x/cmake/Macros.cmake",
+			"dependencies/SFML-2.6.x/src/SFML/Main/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 202,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "devel",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"dependencies/SFML-2.6.x/lib/sfml-main.lib"
+			],
+			"targetId" : "sfml-main::@155d70608b8f4457c3d9",
+			"targetIndex" : 3,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "dependencies/SFML-2.6.x/src/SFML/Main",
+		"source" : "dependencies/SFML-2.6.x/src/SFML/Main"
+	}
+}

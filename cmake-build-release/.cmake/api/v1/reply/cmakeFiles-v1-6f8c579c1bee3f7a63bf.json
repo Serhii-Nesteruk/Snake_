@@ -1,0 +1,321 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/CMakeFiles/3.25.2/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/CMakeFiles/3.25.2/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Clang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-Clang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-release/CMakeFiles/3.25.2/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Clang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-Clang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "dependencies/SFML-2.6.x/CMakeLists.txt"
+		},
+		{
+			"path" : "dependencies/SFML-2.6.x/cmake/Config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckTypeSize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
+		},
+		{
+			"path" : "dependencies/SFML-2.6.x/cmake/SFMLConfig.cmake.in"
+		},
+		{
+			"path" : "dependencies/SFML-2.6.x/cmake/SFMLConfigDependencies.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CPack.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CPackComponent.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"path" : "dependencies/SFML-2.6.x/src/SFML/CMakeLists.txt"
+		},
+		{
+			"path" : "dependencies/SFML-2.6.x/cmake/Macros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"path" : "dependencies/SFML-2.6.x/cmake/CompilerWarnings.cmake"
+		},
+		{
+			"path" : "dependencies/SFML-2.6.x/src/SFML/System/CMakeLists.txt"
+		},
+		{
+			"path" : "dependencies/SFML-2.6.x/tools/windows/resource.rc.in"
+		},
+		{
+			"path" : "dependencies/SFML-2.6.x/src/SFML/Main/CMakeLists.txt"
+		},
+		{
+			"path" : "dependencies/SFML-2.6.x/src/SFML/Window/CMakeLists.txt"
+		},
+		{
+			"path" : "dependencies/SFML-2.6.x/tools/windows/resource.rc.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindOpenGL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "dependencies/SFML-2.6.x/src/SFML/Network/CMakeLists.txt"
+		},
+		{
+			"path" : "dependencies/SFML-2.6.x/tools/windows/resource.rc.in"
+		},
+		{
+			"path" : "dependencies/SFML-2.6.x/src/SFML/Graphics/CMakeLists.txt"
+		},
+		{
+			"path" : "dependencies/SFML-2.6.x/tools/windows/resource.rc.in"
+		},
+		{
+			"path" : "dependencies/SFML-2.6.x/cmake/Modules/FindFreetype.cmake"
+		},
+		{
+			"path" : "dependencies/SFML-2.6.x/src/SFML/Audio/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindOpenAL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "dependencies/SFML-2.6.x/cmake/Modules/FindVORBIS.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "dependencies/SFML-2.6.x/cmake/Modules/FindFLAC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "dependencies/SFML-2.6.x/tools/windows/resource.rc.in"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "D:/MySnake/cmake-build-release",
+		"source" : "D:/MySnake"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

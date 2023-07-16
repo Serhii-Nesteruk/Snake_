@@ -1,0 +1,66 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sfml_add_library"
+		],
+		"files" : 
+		[
+			"dependencies/SFML-2.6.x/cmake/Macros.cmake",
+			"dependencies/SFML-2.6.x/src/SFML/System/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 89,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 202,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "devel",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"dependencies/SFML-2.6.x/lib/sfml-system.lib"
+			],
+			"targetId" : "sfml-system::@fffdf16c78363ac95b3b",
+			"targetIndex" : 5,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "bin",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"dependencies/SFML-2.6.x/lib/sfml-system-2.dll"
+			],
+			"targetId" : "sfml-system::@fffdf16c78363ac95b3b",
+			"targetIndex" : 5,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "dependencies/SFML-2.6.x/src/SFML/System",
+		"source" : "dependencies/SFML-2.6.x/src/SFML/System"
+	}
+}
